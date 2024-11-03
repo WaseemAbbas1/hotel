@@ -1,0 +1,54 @@
+.wishlist-container {
+    padding: 20px;
+  }
+  
+  .wishlist-container .ant-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow to each card */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .wishlist-container .ant-card:hover {
+    transform: translateY(-5px); /* Lifts the card on hover */
+  }
+  
+  .wishlist-container .ant-card-cover img {
+    height: 200px; /* Fixed height for uniform image display */
+    object-fit: cover;
+    border-bottom: 1px solid #f0f0f0; /* Adds a border between image and content */
+  }
+  
+  .wishlist-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .wishlist-actions .ant-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%; /* Keeps buttons at equal width */
+  }
+  
+  .wishlist-actions .ant-btn-primary {
+    background-color: #1890ff; /* Primary button color */
+    border: none;
+    color: white;
+  }
+  
+  .wishlist-actions .ant-btn-primary:hover {
+    background-color: #40a9ff; /* Lighter blue on hover */
+  }
+  
+  .wishlist-actions .ant-btn-danger {
+    background-color: #ff4d4f; /* Danger button color for remove */
+    border: none;
+    color: white;
+  }
+  
+  .wishlist-actions .ant-btn-danger:hover {
+    background-color: #ff7875; /* Lighter red on hover */
+  }
+  

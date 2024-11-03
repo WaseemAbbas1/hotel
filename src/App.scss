@@ -1,0 +1,30 @@
+@import "./scss/bootstrap";
+@import "./scss/loader";
+@import "./scss/product";
+@import "./scss/wishlish";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+footer{
+    p{
+        font-style: oblique;
+        font-family: serif;
+    }
+}
+nav{
+    button{
+        font-style: oblique;
+        font-family: monospace;
+    }
+}
